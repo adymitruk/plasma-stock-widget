@@ -8,10 +8,13 @@ find_package(KF5Plasma REQUIRED)
 find_package(KF5I18n REQUIRED)
 find_package(KF5Config REQUIRED)
 
+# Set local install directory
+set(CMAKE_INSTALL_PREFIX "${CMAKE_BINARY_DIR}/install")
+
 plasma_install_package(package org.kde.plasma.stockwidget
     SOURCES
-        contents/code/main.js
-        contents/ui/main.qml
-        contents/config/main.xml
-        metadata.desktop
+        package/contents/code/main.js
+        package/contents/ui/main.qml
+        package/contents/config/main.xml
+        package/metadata.json
 ) 

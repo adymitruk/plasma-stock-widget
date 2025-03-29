@@ -1,0 +1,36 @@
+# Build directory
+build/
+install/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.cmake
+
+# KDE specific
+*.qmlc
+*.jsc
+*.moc
+*.moc.cpp
+*.moc.h
+*.ui.h
+*.qrc.cpp
+*.qrc.h
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# System files
+.DS_Store
+Thumbs.db 

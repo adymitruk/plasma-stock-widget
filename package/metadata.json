@@ -1,0 +1,25 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "your.email@example.com",
+                "Name": "Your Name"
+            }
+        ],
+        "Category": "Finance",
+        "Description": "Display stock information",
+        "Description[en]": "Display stock information",
+        "EnabledByDefault": true,
+        "Icon": "applications-office-spreadsheet",
+        "Id": "org.kde.plasma.stockwidget",
+        "License": "GPL",
+        "Name": "Stock Widget",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "",
+        "X-Plasma-API": "declarativeappletscript",
+        "X-Plasma-MainScript": "ui/main.qml"
+    }
+} 
