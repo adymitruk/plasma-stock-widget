@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Stock Widget
+Comment=Display stock information
+Icon=applications-office-spreadsheet
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-KDE-PluginInfo-Author=Your Name
+X-KDE-PluginInfo-Email=your.email@example.com
+X-KDE-PluginInfo-Name=org.kde.plasma.stockwidget
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=Finance
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true 
