@@ -1,0 +1,25 @@
+{
+    "KPlugin": {
+        "Name": "Stock Ticker",
+        "Id": "com.dymitruk.stockticker",
+        "Description": "A stock ticker widget",
+        "Icon": "office-chart-line",
+        "Authors": [
+            {
+                "Name": "Adam Dymitruk",
+                "Email": "adam@eventsourcing.com"
+            }
+        ],
+        "Category": "System Information",
+        "License": "GPL-2.0+",
+        "Version": "1.1",
+        "Website": "https://github.com/adymitruk/plasma-stock-widget",
+        "FormFactors": ["desktop", "panel"]
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/stock-chart.qml",
+    "X-Plasma-ConfigPlugins": ["configuration"],
+    "X-Plasma-StandAloneApp": true,
+    "X-KDE-ServiceTypes": ["Plasma/Applet"]
+}

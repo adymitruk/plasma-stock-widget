@@ -3,10 +3,14 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
       http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
-    <kcfgfile name=""/>
-    <group name="General">
-        <entry name="apiKey" type="String">
-            <default></default>
-        </entry>
-    </group>
-</kcfg> 
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="displayName" type="String">
+      <label>Display Name</label>
+      <default>Stock</default>
+      <whatsthis>Set the name to display in the widget</whatsthis>
+    </entry>
+  </group>
+
+</kcfg>
