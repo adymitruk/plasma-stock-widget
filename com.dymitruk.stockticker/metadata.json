@@ -12,14 +12,13 @@
         ],
         "Category": "System Information",
         "License": "GPL-2.0+",
-        "Version": "1.1",
+        "Version": "1.1 2025-04-27 23:38",
         "Website": "https://github.com/adymitruk/plasma-stock-widget",
-        "FormFactors": ["desktop", "panel"]
+        "FormFactors": ["desktop", "panel"],
+        "ServiceTypes": ["Plasma/Applet"]
     },
     "KPackageStructure": "Plasma/Applet",
     "X-Plasma-API": "declarativeappletscript",
     "X-Plasma-MainScript": "ui/stock-chart.qml",
-    "X-Plasma-ConfigPlugins": ["configuration"],
-    "X-Plasma-StandAloneApp": true,
-    "X-KDE-ServiceTypes": ["Plasma/Applet"]
+    "X-Plasma-ConfigMain": "config/config.qml"
 }
