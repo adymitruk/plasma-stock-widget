@@ -8,8 +8,13 @@
   <group name="General">
     <entry name="displayName" type="String">
       <label>Display Name</label>
-      <default>Stock</default>
+      <default>Stock 2</default>
       <whatsthis>Set the name to display in the widget</whatsthis>
+    </entry>
+    <entry name="alphaVantageApiKey" type="String">
+        <label>Alpha Vantage API Key</label>
+        <default>abc</default>
+        <whatsthis>Enter your free API key from alphavantage.co</whatsthis>
     </entry>
   </group>
 
