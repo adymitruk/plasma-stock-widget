@@ -6,18 +6,19 @@ import org.kde.kirigami 2.4 as Kirigami
 Kirigami.FormLayout {
     id: page
     
-    property alias cfg_displayName: displayNameField.text
-    property alias cfg_alphaVantageApiKey: apiKeyField.text
-    
-    TextField {
-        id: displayNameField
-        Kirigami.FormData.label: "Stock:"
-        placeholderText: i18n("Enter display name")
-    }
-
     TextField {
         id: apiKeyField
         Kirigami.FormData.label: "Alpha Vantage API Key:"
         placeholderText: i18n("Enter your API key")
+        text: plasmoid.configuration.alphaVantageApiKey
+        onTextChanged: plasmoid.configuration.cfg_alphaVantageApiKey = text
+    }
+
+    TextField {
+        id: tickerSymbolField
+        Kirigami.FormData.label: "Ticker Symbol:"
+        placeholderText: i18n("Enter ticker symbol (e.g., IBM)")
+        text: plasmoid.configuration.tickerSymbol
+        onTextChanged: plasmoid.configuration.cfg_tickerSymbol = text
     }
 } 
